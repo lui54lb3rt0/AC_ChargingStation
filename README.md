@@ -13,4 +13,8 @@ This repository contains:
 - Gerber files to fabricate the Shield.
 - BOM to assemble the Shield.
 
+There are two versions:
+- V2.2: Arduino Uno shield with a fixed charging current (`EVSE_V2_2.*`, firmware in `src/uno`). This is the version the course below is based on.
+- V3.0: Seeed XIAO ESP32S3 + Wio-SX1262 LoRa kit, where a second, identical kit sets the available current remotely (`EVSE_V3_0.*`, firmware in `src/station` and `src/remote`). The schematic is done, the PCB layout is not. See [docs/ESP32_LoRa_Upgrade.md](docs/ESP32_LoRa_Upgrade.md).
+
 Instructions to execute this learning project: https://www.udemy.com/course/electric-vehicle-charging-from-theory-to-practice/?referralCode=AC67637479A66E6618A2

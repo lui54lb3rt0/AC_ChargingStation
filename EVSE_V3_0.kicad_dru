@@ -1,0 +1,4 @@
+(version 1)
+(rule "Mains to low voltage"
+  (condition "A.NetClass == 'Mains' && B.NetClass != 'Mains'")
+  (constraint clearance (min 6mm)))
